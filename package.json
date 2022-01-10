@@ -1,0 +1,33 @@
+{
+  "name": "devcamper_api",
+  "version": "1.0.0",
+  "description": "Devcamper backend API",
+  "main": "server.js",
+  "scripts": {
+    "start": "NODE_ENV=production node server",
+    "dev": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/irfansk-22/Devcamper_API.git"
+  },
+  "keywords": [
+    "Node.js",
+    "Express",
+    "MongoDB",
+    "REST API"
+  ],
+  "author": "Irfan Shaikh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/irfansk-22/Devcamper_API/issues"
+  },
+  "homepage": "https://github.com/irfansk-22/Devcamper_API#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
